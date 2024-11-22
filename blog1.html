@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miscellaneous bullshit</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Emacs >> vim confirmed</h1>
+  </header>
+  <main>
+    <p>
+      I spent three months learning vim and the saddest thing I learned recently:<br>
+      In vim, you can not extract (select or yank or delete)<br><br>
+      <code>
+        var_one<br>
+        var_two<br>
+        var_three<br>
+        var_very_long<br><br>
+      </code>
+
+      from<br><br>
+      <code>
+        int var_one = 1;<br>
+        int var_two = 2;<br>
+        int var_three = 3;<br>
+        int var_very_long = 4;<br><br>
+      </code>
+
+      using standard keybindings. This is something I need every day.<br>
+      References:
+    <ul>
+    <li>https://stackoverflow.com/questions/6300790/vim-non-rectangular-visual-block</li>
+    <li>chatgpt: <blockquote>You're correct that Vim, out of the box, cannot handle non-rectangular selections in visual block mode. The best options are:
+
+      Writing custom Vimscript for automation.
+      Using a regex substitution for quick tasks.
+      Leveraging an external editor for flexible multicursor editing.</blockquote></li>
+      </ul>
+    </p>
+    <ul class="blog-list">
+      <li>
+        <a href="index.html" class="blog-link">Back to Home</a>
+      </li>
+    </ul>
+  </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>My Blog</title>
+    <link>https://lange.blog</link>
+    <description>Miscellaneous bullshit</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Nov 2024 10:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Emacs >> vim confirmed</title>
+      <link>https://lange.blog/blog1.html</link>
+      <description>This is my first blog post. Click to read more!</description>
+      <pubDate>Thu, 21 Nov 2024 10:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
