@@ -1,12 +1,16 @@
 # Some notes on making my site or webgl app prettier
+
 # Table of Contents
+
 1. [Glossary](#glossary)
 2. [CSS](#css)
 3. [HTML](#html)
 4. [Javascript](#javascript)
 
 ## Glossary
+
 `Device Pixel Ratio (DPR)`
+
 - #(physical screen pixels) / #(software pixel units)
 - older devices had `DPR` equal to 1, now values of 2 and >=3 are more common
 - note `DPR = 2 ` ==> 4 times as many pixels to render
@@ -15,11 +19,13 @@
   - Pixels at DPR 2=(2×Width)×(2×Height)=4×(Width×Height)\
 
 `Display areas`
+
 - screen (all)
 - window (browser)
 - viewport (render) --> `window.innerWidth, window.innerHeight`
 
 ## CSS
+
 ```css
 body
 {
@@ -46,7 +52,9 @@ body
 ```
 
 ## Javascript
+
 Change webgl render using threejs
+
 ```js
 const sizes = {
   width: window.innerWidth,
